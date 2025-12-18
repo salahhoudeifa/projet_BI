@@ -8,7 +8,6 @@ database = "ETL_Northwind"
 username = "dbo"
 driver = "ODBC Driver 17 for SQL Server"
 
-
 #extraire des donnees des fichiers excel (extension .xlsx)
 def extract(file):
     df = pd.read_excel(file)
